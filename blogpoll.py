@@ -9,7 +9,7 @@ def readBallot(ballot, aggregateVotes):
 	teamNames = ballot.strip().split('\n')
 	# check for wrong number of votes
 	if len(teamNames) != BALLOT_SIZE:
-		print "Wrong number " + len(teamnames) + " of teams!"
+		print "Wrong number " + len(teamNames) + " of teams!"
 		return None
 	i = 0
 	votes = {}
